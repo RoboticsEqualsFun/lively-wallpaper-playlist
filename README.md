@@ -1,4 +1,4 @@
-\# Lively Wallpaper Playlist
+# Lively Wallpaper Playlist
 
 
 
@@ -6,7 +6,7 @@ A small program that randomly chooses wallpapers from your existing lively wallp
 
 
 
-\## Features
+## Features
 
 * Randomly sets wallpapers for each screen
 * A config.json file for changing various things such as
@@ -17,7 +17,6 @@ A small program that randomly chooses wallpapers from your existing lively wallp
 
 
 
-\## Usage
-
+## Usage
 Install using the provided installer and set the fields in the config.json file
 
