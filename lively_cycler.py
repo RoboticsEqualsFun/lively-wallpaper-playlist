@@ -2,7 +2,6 @@ import os
 import subprocess
 import random
 import time
-import sys
 import json
 
 config_path = "config.json" # relative to the script
