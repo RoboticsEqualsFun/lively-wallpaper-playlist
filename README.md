@@ -128,5 +128,8 @@
 
 # \- Fix everything. Fix the universe.
 
+A lightweight utility that automatically cycles through your saved Lively wallpapers and assigns random wallpapers to each monitor at a configurable interval.
 
+## 📥 Download
+Download the latest installer from the **[Releases page](https://github.com/followedmefully/Lively-Wallpaper-Playlist/releases)**.
 
