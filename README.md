@@ -15,11 +15,12 @@ Download the latest installer from the **[Releases page](https://github.com/foll
 
 1. Download the installer.
 2. Run the installer and follow the instructions. (Note: windows will try blocking the program since it uses a python executable. Just lick more info, annd then press run anyway.)
-3. When it asks for the monitor numbers just look at your lively wallpaper monitors and copy that.
+3. When it asks for the monitor numbers just look at your lively wallpaper monitors and copy that. (Note: It is currently broken and will not actually do anything)
 4. When it asks for the the path that contains your Lively wallpapers go to lively and go to Settings → General → click **Wallpaper Directory** and copy that path.   
 **Important:** The folder shown by Lively is **not** the final folder. After copying it, you must add `\SaveData\wptmp`.
 5. Then choose how you intalled lively (Note: This feature is kind of broken and will be fixed shortly)
-6. After installation, launch the program from the Start Menu or Desktop shortcut (if selected).
+6. Find the config file (located in the same folder that the program was downloaded to) and edit to monitors to match lively.
+7. After installation, launch the program from the Start Menu or Desktop shortcut (if selected).
 
 ## 🧠 Configuration
 
