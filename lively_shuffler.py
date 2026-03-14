@@ -215,6 +215,15 @@ def on_quit(icon, item):
     instance_socket.close()
     icon.stop()
 
+def open_config(icon, item):
+    """
+    Opens the config.json file with the default system editor
+    """
+    try:
+        os.startfile("config.json")  # Windows: opens file with default program
+    except Exception as e:
+        logging.error(f"Failed to open config.json: {e}")
+
 # -----------------------------
 #        Load the icon
 # -----------------------------
@@ -235,7 +244,10 @@ icon = pystray.Icon(
     "LivelyShufflePlaylist",
     icon_image, 
     "Lively Shuffle", 
-    menu=pystray.Menu(item("Quit", on_quit))
+    menu=pystray.Menu(
+        item("Open Config", open_config),
+        item("Quit", on_quit)
+    )
 )
 
 # Run the tray icon
