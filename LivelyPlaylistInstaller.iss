@@ -3,12 +3,12 @@ AppName=Lively Playlist
 AppVersion=0.5.0-alpha
 AppPublisher=RoboticsEqualsFun
 AppId={{EE44DAA9-EE3D-43D0-9B0F-CA9E9BD3966D}}
-AppPublisherURL=https://github.com/followedmefully/Lively-Wallpaper-Playlist
+AppPublisherURL=https://github.com/roboticsequalsfun/Lively-Wallpaper-Playlist
 DefaultDirName={autopf}\LivelyPlaylist
 PrivilegesRequired=admin
-DefaultGroupName=LivelyPlaylist
+DefaultGroupName=Lively Playlist
 OutputBaseFilename=LivelyPlaylistInstaller
-UninstallDisplayIcon={app}\LivelyPlaylist
+UninstallDisplayIcon={app}\LivelyPlaylist.exe
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -16,7 +16,7 @@ CloseApplications=yes
 
 [Files]
 Source: "LivelyPlaylist.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "config.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "config.json"; DestDir: "{userappdata}\LivelyPlaylist"; Flags: onlyifdoesntexist
 Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion; Attribs: hidden
 
 [Tasks]
