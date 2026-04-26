@@ -1,11 +1,11 @@
 [Setup]
-AppName=LivelyPlaylist
+AppName=Lively Playlist
 AppVersion=0.5.0-alpha
 AppPublisher=RoboticsEqualsFun
 AppId={{EE44DAA9-EE3D-43D0-9B0F-CA9E9BD3966D}}
 AppPublisherURL=https://github.com/followedmefully/Lively-Wallpaper-Playlist
 DefaultDirName={autopf}\LivelyPlaylist
-PrivilegesRequiredOverridesAllowed=dialog
+PrivilegesRequired=admin
 DefaultGroupName=LivelyPlaylist
 OutputBaseFilename=LivelyPlaylistInstaller
 UninstallDisplayIcon={app}\LivelyPlaylist
@@ -23,11 +23,11 @@ Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion; Attribs: hidden
 Name: "desktopicon"; Description: "Create a desktop shortcut"; GroupDescription: "Additional shortcuts:"
 
 [Icons]
-Name: "{group}\Livelylaylist"; Filename: "{app}\LivelyPlaylist"; IconFilename: "{app}\icon.ico"
-Name: "{userdesktop}\LivelyPlaylist"; Filename: "{app}\LivelyPlaylist"; IconFilename: "{app}\icon.ico"; Tasks: desktopicon
+Name: "{group}\Lively Playlist"; Filename: "{app}\LivelyPlaylist.exe"; IconFilename: "{app}\icon.ico"
+Name: "{userdesktop}\Lively Playlist"; Filename: "{app}\LivelyPlaylist.exe"; IconFilename: "{app}\icon.ico"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\LivelyPlaylist"; Description: "Launch LivelyPlaylist after installation"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\LivelyPlaylist"; Description: "Launch Lively Playlist after installation"; Flags: nowait postinstall skipifsilent
 
 [InstallDelete]
 Type: dirifempty; Name: "{app}"
